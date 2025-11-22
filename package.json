@@ -1,0 +1,26 @@
+{
+  "name": "safe-password-generator",
+  "version": "2.0.0",
+  "description": "Next-level secure password generator with CLI wizard, JSON output, and entropy info",
+  "main": "index.js",
+  "bin": {
+    "safe-password-generator": "./cli.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "password",
+    "generator",
+    "cli",
+    "security",
+    "crypto",
+    "random"
+  ],
+  "author": "Moses M. Kumesi",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/generator.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
