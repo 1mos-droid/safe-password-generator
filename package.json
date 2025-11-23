@@ -1,7 +1,7 @@
 {
-  "name": "safe-password-generator",
+  "name": "@1mos-droid/safe-password-generator",
   "version": "2.0.0",
-  "description": "Next-level secure password generator with CLI wizard, JSON output, and entropy info",
+  "description": "Next-level secure password generator with CLI and programmatic API",
   "main": "index.js",
   "bin": {
     "safe-password-generator": "./cli.js"
@@ -22,5 +22,12 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1mos-droid/safe-password-generator.git"
   }
 }
