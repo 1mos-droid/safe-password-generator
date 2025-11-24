@@ -135,8 +135,3 @@ console.log(customPassword);
 
 ---
 
-## 🧰 Next Steps
-
-- ✅ Test locally with `npm link`  
-- 🚀 Publish to GitHub Packages  
-- 💬 Share with the community
